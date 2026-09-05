@@ -1,0 +1,40 @@
+.page-wrap {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-container {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+  flex: 1;
+}
+
+.app-header {
+  padding: 24px 0 16px;
+}
+
+.app-header h1 {
+  font-size: 26px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.page-body {
+  padding: 24px 0 40px;
+}
+
+.app-footer {
+  background: #eeeeee;
+  padding: 14px 0;
+  text-align: center;
+  font-size: 13px;
+  color: #555555;
+}
+
+@media (max-width: 700px) {
+  .app-container { max-width: 95%; padding: 0 12px; }
+  .app-header h1 { font-size: 21px; }
+}

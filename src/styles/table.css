@@ -1,0 +1,32 @@
+.table-scroll { overflow-x: auto; }
+
+table.report-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  margin-top: 10px;
+  min-width: 640px;
+}
+
+.report-table thead th {
+  background: #f0f0f0;
+  border: 1px solid #dddddd;
+  padding: 8px 10px;
+  text-align: left;
+  font-weight: bold;
+  color: #333333;
+}
+
+.report-table tbody td {
+  border: 1px solid #dddddd;
+  padding: 8px 10px;
+}
+
+.report-table tbody tr:nth-child(even) { background: #fafafa; }
+
+.vendor-meta {
+  font-size: 13px;
+  margin-bottom: 14px;
+}
+.vendor-meta strong { margin-right: 4px; }
+.vendor-meta span { margin-right: 20px; }
